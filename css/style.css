@@ -238,9 +238,10 @@ audio {
 }
 
 
-.vesuvio {
-    background: url('../img/peez.jpg');
-    background-size: cover;
+.nft {
+    background: url('../img/nft.gif');
+    background-size: contain;
+    size-adjust: 100px;
     color: white;
 }
 
