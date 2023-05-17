@@ -186,6 +186,18 @@ upgrades = [
         cost: 1000,
         amount: 100,
     },
+    {
+        name: 'Trojan',
+        class: 'trojan',
+        cost: 1000,
+        amount: 100,
+    },
+    {
+        name: 'box4',
+        class: 'box4',
+        cost: 1000,
+        amount: 100,
+    },
 ];
 
 /* createCard är en funktion som tar ett upgrade objekt som parameter och skapar
@@ -224,7 +236,7 @@ function createCard(upgrade) {
         if (money >= upgrade.cost) {
             acquiredUpgrades++;
             money -= upgrade.cost;
-            upgrade.cost *= 1.5;
+            upgrade.cost *= 1;
             cost.textContent = 'Köp för ' + Math.trunc(upgrade.cost) + ' Slices';
             moneyPerSecond += upgrade.amount ? upgrade.amount : 0;
             moneyPerClick += upgrade.clicks ? upgrade.clicks : 0;

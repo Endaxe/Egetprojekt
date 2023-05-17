@@ -3,7 +3,7 @@
 
 :root {
     --color-lighting: hsl(0, 0%, 34%);
-    --color-hova: hsl(0, 0%, 33%);
+    --color-hova: hsl(0, 0%, 63%);
     --color-lighter: hsl(123, 100%, 23%);
     --color-light: hsl(0, 0%, 100%);
     --color-gray: hsl(0, 0%, 16%);
@@ -177,8 +177,8 @@ audio {
 }
 
 #game-button:active {
-    border-color: var(--color-dark);
     background-color: var(--color-dark-transparent);
+    background-image: var(--color-dark-transparent);
 }
 
 /* #msgbox är elementet som visar sidans toasts, popupmeddelanden
@@ -197,6 +197,10 @@ audio {
     padding: var(--space-xs-s);
 }
 
+
+#upgradelist {
+    column-count: 2;
+}
 /* de här klasserna används för att bestämma stilen på de olika storternas
  * meddelanden. Javascript används för att lägga till stilen på meddelandet
  */
@@ -223,58 +227,77 @@ audio {
     cursor: pointer;
     border: 2px solid var(--color-lighter);
     margin: var(--space-xs-s) 0;
-    padding: var(--space-s-m) var(--space-xs-s);
+    padding: var(--space-m-l) var(--space-xs-s);
 }
 
 .grafik {
     background: url('../img/grafik.gif');
-    background-size: contain;
+    background-size: 600px 250px;
     size-adjust: 100px;
     color: white;
 }
 
-.kebab:hover {
+.grafik:hover {
+    color: var(--color-hova);
+}
+
+
+.doge {
+    background: url('../img/doge.gif');
+    background-size: 600px 200px;
+    color: white;
+}
+
+.doge:hover {
     color: var(--color-hova);
 }
 
 
 .nft {
-    background: url('../img/nft.gif');
-    background-size: contain;
+    background: url('../img/nft2.gif');
+    background-size: 600px 135px;
     size-adjust: 100px;
     color: white;
 }
 
-.vesuvio:hover {
-    color: var(--color-hova);
-}
-
-.bagar {
-    background: url('../img/bagar.jpg');
-    background-size: cover;
-    color: white;
-}
-
-.bagar:hover {
+.nft:hover {
     color: var(--color-hova);
 }
 
 
-.fye {
+
+.bitcoin {
     background: url('../img/fye.jpg');
     background-size: cover;
     size-adjust: 20px;
     color: white;
 }
 
-.fye:hover {
+.bitcoin:hover {
     color: var(--color-hova);
 }
 
-.card:hover {
-    background-color: var(--color-dark);
+.trojan {
+    background: url('../img/fye.jpg');
+    background-size: cover;
+    size-adjust: 20px;
+    color: white;
 }
 
+.trojan:hover {
+    color: var(--color-hova);
+}
+
+.box4 {
+    background: url('../img/fye.jpg');
+    background-size: cover;
+    size-adjust: 20px;
+    color: white;
+}
+
+.box4:hover {
+    color: var(--color-hova);
+}
 .card p:not(.title) {
     text-align: end;
 }
