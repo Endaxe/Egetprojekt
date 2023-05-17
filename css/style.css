@@ -227,7 +227,7 @@ audio {
     cursor: pointer;
     border: 2px solid var(--color-lighter);
     margin: var(--space-xs-s) 0;
-    padding: var(--space-m-l) var(--space-xs-s);
+    padding: var(--space-m-l) var(--space-m-l);
 }
 
 .grafik {
