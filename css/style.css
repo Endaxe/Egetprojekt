@@ -243,8 +243,9 @@ audio {
 
 
 .doge {
-    background: url('../img/doge.gif');
-    background-size: 600px 200px;
+    background: url('../img/dogge.jpg');
+    background-size: 550px 160px;
+    size-adjust: 100px;
     color: white;
 }
 
@@ -267,9 +268,9 @@ audio {
 
 
 .bitcoin {
-    background: url('../img/fye.jpg');
-    background-size: cover;
-    size-adjust: 20px;
+    background: url('../img/bit.jpg');
+    background-size: 620px 250px;
+    size-adjust: 100px;
     color: white;
 }
 
