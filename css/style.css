@@ -227,7 +227,7 @@ audio {
     cursor: pointer;
     border: 2px solid var(--color-lighter);
     margin: var(--space-xs-s) 0;
-    padding: var(--space-m-l) var(--space-m-l);
+    padding: var(--space-m-l) var(--space-xs-s);
 }
 
 .grafik {
@@ -278,7 +278,7 @@ audio {
 }
 
 .trojan {
-    background: url('../img/fye.jpg');
+    background: url('../img/trojan.gif');
     background-size: cover;
     size-adjust: 20px;
     color: white;
@@ -306,6 +306,14 @@ audio {
  */
 .title {
     font-weight: 600;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 60px;
 }
 
 /* animation och klass för att blinka texten */
