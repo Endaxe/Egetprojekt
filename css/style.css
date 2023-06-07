@@ -289,8 +289,8 @@ audio {
     color: var(--color-hova);
 }
 
-.box4 {
-    background: url('../img/fye.jpg');
+.farm {
+    background: url('../img/farm.jpg');
     background-size: cover;
     size-adjust: 20px;
     color: white;

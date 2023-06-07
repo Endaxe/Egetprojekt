@@ -193,8 +193,8 @@ upgrades = [
         amount: 100,
     },
     {
-        name: 'box4',
-        class: 'box4',
+        name: 'farm',
+        class: 'farm',
         cost: 1000,
         amount: 100,
     },
